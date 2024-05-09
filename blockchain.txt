@@ -1,0 +1,65 @@
+{
+    "chain": [
+        {
+            "hash": "1092e16b0b2d40e6d4ebe7576c4361b3fb9b149f683ad24699203f1ceb5db106",
+            "merkle_tree": {
+                "merkle_tree": [],
+                "transactions": []
+            },
+            "nonce": 0,
+            "previous_hash": "0",
+            "time": 1715262285.3560698,
+            "transactions": []
+        },
+        {
+            "hash": "008646d4e9f74e28a64742093f78fab5cfd2be57beef5bdf80d050f7d7234ade",
+            "merkle_tree": {
+                "merkle_tree": [
+                    "2125ff3e9a50d2423172aba9dce99bc292960784d87e4b4eed01270c3c3f0283",
+                    "f2be158183962c5d8a7253b73bb9e870e8c50bfa429b30732f683214b4a9db6e",
+                    "e5d421e748212b575a6725c00229297550cf83771b76741e0d930a61bfa89f51",
+                    "97a88e8daf7132ddbd7cdb0858860bed5dfc0c3a405a0e7f02bb8e9a9069b215",
+                    "c412cea89988b7ae32610f6b158addcafb002e103ebe02d301d1271d7214419a",
+                    "9a7f0fda335aea66ce9aee58a5dd390bda6b373fd4968b190da0961abab2eae4"
+                ],
+                "transactions": [
+                    "3e422d3effb49c1f63f16379b0d800754377003905ed025a4c01b022eeea0835",
+                    "707655550016026ea042f242fb46ddf97513ff962f52a9efeace1b49cd4877e1",
+                    "4d56b0c1a66cf750210b740216aa0cbb9be0ec83f45d8720afc759736b6bb275"
+                ]
+            },
+            "nonce": 13,
+            "previous_hash": "1092e16b0b2d40e6d4ebe7576c4361b3fb9b149f683ad24699203f1ceb5db106",
+            "time": 1715262285.3562748,
+            "transactions": [
+                {
+                    "amount": 50,
+                    "receiver": "Bob",
+                    "sender": "Alice"
+                },
+                {
+                    "amount": 20,
+                    "receiver": "Charlie",
+                    "sender": "Bob"
+                },
+                {
+                    "amount": 30,
+                    "receiver": "Alice",
+                    "sender": "Charlie"
+                }
+            ]
+        }
+    ],
+    "merkle_tree": {
+        "merkle_tree": [
+            "280aa7290290da2cc5700c9ee67715fa02261b30731a16a24fff22a40a4e16f0",
+            "280aa7290290da2cc5700c9ee67715fa02261b30731a16a24fff22a40a4e16f0",
+            "8415370629e2c392bd9694f0c05e6634e0dd534233138aaab0c12c5cad4df111",
+            "fdae40e45c27409c2c7ce014e60b793aa6e3eeb53fe88f6333b7dd9a2757ca88"
+        ],
+        "transactions": [
+            "1092e16b0b2d40e6d4ebe7576c4361b3fb9b149f683ad24699203f1ceb5db106",
+            "008646d4e9f74e28a64742093f78fab5cfd2be57beef5bdf80d050f7d7234ade"
+        ]
+    }
+}
